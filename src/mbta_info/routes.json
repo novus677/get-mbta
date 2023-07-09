@@ -1,0 +1,1418 @@
+{
+    "Red": {
+        "name": "Red Line (Alewife - Ashmont/Braintree)",
+        "directions": [
+            "Ashmont/Braintree",
+            "Alewife"
+        ],
+        "stops": []
+    },
+    "Mattapan": {
+        "name": "Mattapan Line (Ashmont - Mattapan)",
+        "directions": [
+            "Mattapan",
+            "Ashmont"
+        ],
+        "stops": []
+    },
+    "Orange": {
+        "name": "Orange Line (Forest Hills - Oak Grove)",
+        "directions": [
+            "Forest Hills",
+            "Oak Grove"
+        ],
+        "stops": []
+    },
+    "Green-B": {
+        "name": "Green-B Line (Boston College - Government Center)",
+        "directions": [
+            "Boston College",
+            "Government Center"
+        ],
+        "stops": []
+    },
+    "Green-C": {
+        "name": "Green-C Line (Cleveland Circle - Government Center)",
+        "directions": [
+            "Cleveland Circle",
+            "Government Center"
+        ],
+        "stops": []
+    },
+    "Green-D": {
+        "name": "Green-D Line (Riverside - Union Square)",
+        "directions": [
+            "Riverside",
+            "Union Square"
+        ],
+        "stops": []
+    },
+    "Green-E": {
+        "name": "Green-E Line (Heath Street - Medford/Tufts)",
+        "directions": [
+            "Heath Street",
+            "Medford/Tufts"
+        ],
+        "stops": []
+    },
+    "Blue": {
+        "name": "Blue Line (Bowdoin - Wonderland)",
+        "directions": [
+            "Bowdoin",
+            "Wonderland"
+        ],
+        "stops": []
+    },
+    "708": {
+        "name": "CT3 (Beth Israel Deaconess Hospital - Andrew Station)",
+        "directions": [
+            "Avenue Louis Pasteur",
+            "Andrew Station"
+        ],
+        "stops": []
+    },
+    "741": {
+        "name": "Silver Line 1 (Logan Airport Terminals - South Station)",
+        "directions": [
+            "Logan Airport Terminals",
+            "South Station"
+        ],
+        "stops": []
+    },
+    "742": {
+        "name": "Silver Line 2 (Drydock Avenue - South Station)",
+        "directions": [
+            "Drydock Ave",
+            "South Station"
+        ],
+        "stops": []
+    },
+    "743": {
+        "name": "Silver Line 3 (Chelsea Station - South Station)",
+        "directions": [
+            "Chelsea Station",
+            "South Station"
+        ],
+        "stops": []
+    },
+    "746": {
+        "name": "Silver Line Waterfront (Silver Line Way - South Station)",
+        "directions": [
+            "Silver Line Way",
+            "South Station"
+        ],
+        "stops": []
+    },
+    "747": {
+        "name": "CT2 (Sullivan Square Station - Ruggles Station)",
+        "directions": [
+            "Sullivan Square Station",
+            "Ruggles Station"
+        ],
+        "stops": []
+    },
+    "749": {
+        "name": "Silver Line 5 (Nubian Station - Temple Place)",
+        "directions": [
+            "Nubian Station",
+            "Temple Place"
+        ],
+        "stops": []
+    },
+    "751": {
+        "name": "Silver Line 4 (Nubian Station - South Station)",
+        "directions": [
+            "Nubian Station",
+            "South Station"
+        ],
+        "stops": []
+    },
+    "CR-Fairmount": {
+        "name": "CR-Fairmount (Fairmount - South Station)",
+        "directions": [
+            "Readville",
+            "South Station"
+        ],
+        "stops": []
+    },
+    "CR-Fitchburg": {
+        "name": "CR-Fitchburg (Fitchburg - North Station)",
+        "directions": [
+            "Wachusett",
+            "North Station"
+        ],
+        "stops": []
+    },
+    "CR-Worcester": {
+        "name": "CR-Worcester (Worcester - South Station)",
+        "directions": [
+            "Worcester",
+            "South Station"
+        ],
+        "stops": []
+    },
+    "CR-Franklin": {
+        "name": "CR-Franklin (Franklin - South Station)",
+        "directions": [
+            "Forge Park/495",
+            "South Station"
+        ],
+        "stops": []
+    },
+    "CR-Greenbush": {
+        "name": "CR-Greenbush (Greenbush - South Station)",
+        "directions": [
+            "Greenbush",
+            "South Station"
+        ],
+        "stops": []
+    },
+    "CR-Haverhill": {
+        "name": "CR-Haverhill (Haverhill - North Station)",
+        "directions": [
+            "Haverhill",
+            "North Station"
+        ],
+        "stops": []
+    },
+    "CR-Kingston": {
+        "name": "CR-Kingston (Kingston - South Station)",
+        "directions": [
+            "Kingston",
+            "South Station"
+        ],
+        "stops": []
+    },
+    "CR-Lowell": {
+        "name": "CR-Lowell (Lowell - North Station)",
+        "directions": [
+            "Lowell",
+            "North Station"
+        ],
+        "stops": []
+    },
+    "CR-Middleborough": {
+        "name": "CR-Middleborough (Middleborough - South Station)",
+        "directions": [
+            "Middleborough/Lakeville",
+            "South Station"
+        ],
+        "stops": []
+    },
+    "CR-Needham": {
+        "name": "CR-Needham (Needham - South Station)",
+        "directions": [
+            "Needham Heights",
+            "South Station"
+        ],
+        "stops": []
+    },
+    "CR-Newburyport": {
+        "name": "CR-Newburyport (Newburyport - North Station)",
+        "directions": [
+            "Newburyport",
+            "North Station"
+        ],
+        "stops": []
+    },
+    "CR-Providence": {
+        "name": "CR-Providence (Providence - South Station)",
+        "directions": [
+            "Providence",
+            "South Station"
+        ],
+        "stops": []
+    },
+    "CR-Foxboro": {
+        "name": "CR-Foxboro (Foxboro - South Station)",
+        "directions": [
+            "Foxboro",
+            "South Station"
+        ],
+        "stops": []
+    },
+    "1": {
+        "name": "1 (Harvard Square - Nubian Station)",
+        "directions": [
+            "Harvard Square",
+            "Nubian Station"
+        ],
+        "stops": []
+    },
+    "4": {
+        "name": "4 (North Station - Tide Street)",
+        "directions": [
+            "North Station",
+            "Marine Park "
+        ],
+        "stops": []
+    },
+    "7": {
+        "name": "7 (City Point - Otis Street & Summer Street)",
+        "directions": [
+            "City Point",
+            "Otis Street & Summer Street"
+        ],
+        "stops": []
+    },
+    "8": {
+        "name": "8 (Harbor Point - Kenmore Station)",
+        "directions": [
+            "Harbor Point",
+            "Kenmore Station"
+        ],
+        "stops": []
+    },
+    "9": {
+        "name": "9 (City Point - Copley Station)",
+        "directions": [
+            "City Point",
+            "Copley Station"
+        ],
+        "stops": []
+    },
+    "10": {
+        "name": "10 (City Point - Copley Square)",
+        "directions": [
+            "City Point",
+            "Copley Square"
+        ],
+        "stops": []
+    },
+    "11": {
+        "name": "11 (City Point - Chauncy Street & Summer Street)",
+        "directions": [
+            "City Point",
+            "Chauncy Street & Summer Street"
+        ],
+        "stops": []
+    },
+    "14": {
+        "name": "14 (Roslindale Square - Heath Street)",
+        "directions": [
+            "Roslindale Square",
+            "Heath Street"
+        ],
+        "stops": []
+    },
+    "15": {
+        "name": "15 (Fields Corner Station or Kane Square - Ruggles Station)",
+        "directions": [
+            "Kane Square",
+            "Ruggles Station"
+        ],
+        "stops": []
+    },
+    "16": {
+        "name": "16 (Forest Hills Station - Andrew Station or Harbor Point)",
+        "directions": [
+            "Forest Hills Station",
+            "Andrew Station"
+        ],
+        "stops": []
+    },
+    "17": {
+        "name": "17 (Fields Corner Station - Andrew Station)",
+        "directions": [
+            "Fields Corner Station",
+            "Andrew Station"
+        ],
+        "stops": []
+    },
+    "18": {
+        "name": "18 (Ashmont Station - Andrew Station)",
+        "directions": [
+            "Ashmont Station",
+            "Andrew Station"
+        ],
+        "stops": []
+    },
+    "19": {
+        "name": "19 (Fields Corner Station - Kenmore or Ruggles Station)",
+        "directions": [
+            "Fields Corner Station",
+            "Kenmore Station"
+        ],
+        "stops": []
+    },
+    "21": {
+        "name": "21 (Ashmont Station - Forest Hills Station)",
+        "directions": [
+            "Ashmont Station",
+            "Forest Hills Station"
+        ],
+        "stops": []
+    },
+    "22": {
+        "name": "22 (Ashmont Station - Ruggles Station)",
+        "directions": [
+            "Ashmont Station",
+            "Ruggles Station"
+        ],
+        "stops": []
+    },
+    "23": {
+        "name": "23 (Ashmont Station - Ruggles Station)",
+        "directions": [
+            "Ashmont Station",
+            "Ruggles Station"
+        ],
+        "stops": []
+    },
+    "24": {
+        "name": "24 (Wakefield Avenue & Truman Parkway - Ashmont Station)",
+        "directions": [
+            "Wakefield Avenue & Truman Parkway",
+            "Ashmont Station"
+        ],
+        "stops": []
+    },
+    "26": {
+        "name": "26 (Ashmont Station - Norfolk Street Loop)",
+        "directions": [
+            "Ashmont Station",
+            "Gallivan Blvd"
+        ],
+        "stops": []
+    },
+    "28": {
+        "name": "28 (Mattapan Station - Ruggles Station)",
+        "directions": [
+            "Mattapan Station",
+            "Ruggles Station"
+        ],
+        "stops": []
+    },
+    "29": {
+        "name": "29 (Mattapan Station - Jackson Square Station)",
+        "directions": [
+            "Mattapan Station",
+            "Jackson Square Station"
+        ],
+        "stops": []
+    },
+    "30": {
+        "name": "30 (Mattapan Station - Forest Hills Station)",
+        "directions": [
+            "Mattapan Station",
+            "Forest Hills Station"
+        ],
+        "stops": []
+    },
+    "31": {
+        "name": "31 (Mattapan Station - Forest Hills Station)",
+        "directions": [
+            "Mattapan Station",
+            "Forest Hills Station"
+        ],
+        "stops": []
+    },
+    "32": {
+        "name": "32 (Wolcott or Cleary Square - Forest Hills Station)",
+        "directions": [
+            "Wolcott Square",
+            "Forest Hills Station"
+        ],
+        "stops": []
+    },
+    "3233": {
+        "name": "32/33 (River Street & Milton Street - Mattapan Station)",
+        "directions": [
+            "River Street & Milton Street",
+            "Forrest Hills Station"
+        ],
+        "stops": []
+    },
+    "33": {
+        "name": "33 (River Street & Milton Street - Mattapan Station)",
+        "directions": [
+            "River Street & Milton Street",
+            "Mattapan Station"
+        ],
+        "stops": []
+    },
+    "34": {
+        "name": "34 (Dedham Square - Forest Hills Station)",
+        "directions": [
+            "Dedham Mall",
+            "Forest Hills Station"
+        ],
+        "stops": []
+    },
+    "34E": {
+        "name": "34E (Walpole Center - Forest Hills Station)",
+        "directions": [
+            "Walpole Center",
+            "Forest Hills Station"
+        ],
+        "stops": []
+    },
+    "35": {
+        "name": "35 (Dedham Mall or Stimson Street - Forest Hills Station)",
+        "directions": [
+            "Dedham Mall",
+            "Forest Hills Station"
+        ],
+        "stops": []
+    },
+    "36": {
+        "name": "36 (Millennium Park or VA Hospital - Forest Hills Station)",
+        "directions": [
+            "VA Hospital",
+            "Forest Hills Station"
+        ],
+        "stops": []
+    },
+    "37": {
+        "name": "37 (Baker Street & Vermont Street - Forest Hills Station)",
+        "directions": [
+            "Baker Street & Vermont Street",
+            "Forest Hills Station"
+        ],
+        "stops": []
+    },
+    "38": {
+        "name": "38 (Wren Street - Forest Hills Station)",
+        "directions": [
+            "Wren Street",
+            "Forest Hills Station"
+        ],
+        "stops": []
+    },
+    "39": {
+        "name": "39 (Forest Hills Station - Back Bay Station)",
+        "directions": [
+            "Forest Hills Station",
+            "Back Bay Station"
+        ],
+        "stops": []
+    },
+    "40": {
+        "name": "40 (Georgetowne - Forest Hills Station)",
+        "directions": [
+            "Georgetowne",
+            "Forest Hills Station"
+        ],
+        "stops": []
+    },
+    "4050": {
+        "name": "40/50 (Georgetowne - Forest Hills Station)",
+        "directions": [
+            "Cleary Square",
+            "Forest Hills Station"
+        ],
+        "stops": []
+    },
+    "41": {
+        "name": "41 (Centre Street & Eliot Street - JFK/UMass Station)",
+        "directions": [
+            "Centre Street & Eliot Street",
+            "JFK/UMass Station"
+        ],
+        "stops": []
+    },
+    "42": {
+        "name": "42 (Forest Hills Station - Nubian Station)",
+        "directions": [
+            "Forest Hills Station",
+            "Nubian Station"
+        ],
+        "stops": []
+    },
+    "43": {
+        "name": "43 (Ruggles Station - Park Street Station)",
+        "directions": [
+            "Ruggles Station",
+            "Park Street Station"
+        ],
+        "stops": []
+    },
+    "44": {
+        "name": "44 (Jackson Square Station - Ruggles Station)",
+        "directions": [
+            "Jackson Square Station",
+            "Ruggles Station"
+        ],
+        "stops": []
+    },
+    "45": {
+        "name": "45 (Franklin Park - Ruggles Station)",
+        "directions": [
+            "Franklin Park",
+            "Ruggles Station"
+        ],
+        "stops": []
+    },
+    "47": {
+        "name": "47 (Central Square, Cambridge - Broadway Station)",
+        "directions": [
+            "Central Square, Cambridge",
+            "Broadway Station"
+        ],
+        "stops": []
+    },
+    "50": {
+        "name": "50 (Cleary Square - Forest Hills Station)",
+        "directions": [
+            "Cleary Square",
+            "Forest Hills Station"
+        ],
+        "stops": []
+    },
+    "51": {
+        "name": "51 (Reservoir Station - Forest Hills Station)",
+        "directions": [
+            "Reservoir Station",
+            "Forest Hills Station"
+        ],
+        "stops": []
+    },
+    "52": {
+        "name": "52 (Dedham Mall - Watertown Yard)",
+        "directions": [
+            "Dedham Mall",
+            "Watertown"
+        ],
+        "stops": []
+    },
+    "55": {
+        "name": "55 (Jersey Street & Queensberry Street - Copley Station)",
+        "directions": [
+            "Jersey Street & Queensberry Street",
+            "Copley Square"
+        ],
+        "stops": []
+    },
+    "57": {
+        "name": "57 (Watertown Yard - Kenmore Station)",
+        "directions": [
+            "Watertown Yard",
+            "Kenmore Station"
+        ],
+        "stops": []
+    },
+    "59": {
+        "name": "59 (Needham Junction - Watertown Square)",
+        "directions": [
+            "Needham Junction",
+            "Watertown Square"
+        ],
+        "stops": []
+    },
+    "60": {
+        "name": "60 (Chestnut Hill - Kenmore Station)",
+        "directions": [
+            "Chestnut Hill",
+            "Kenmore Station"
+        ],
+        "stops": []
+    },
+    "61": {
+        "name": "61 (North Waltham - Waltham Center)",
+        "directions": [
+            "North Waltham",
+            "Waltham Center"
+        ],
+        "stops": []
+    },
+    "62": {
+        "name": "62 (Bedford VA Hospital - Alewife Station)",
+        "directions": [
+            "Bedford VA Hospital",
+            "Alewife Station"
+        ],
+        "stops": []
+    },
+    "627": {
+        "name": "62/76 (Bedford VA Hospital - Alewife Station)",
+        "directions": [
+            "Bedford VA Hospital",
+            "Alewife Station"
+        ],
+        "stops": []
+    },
+    "64": {
+        "name": "64 (Oak Square - University Park or Kendall/MIT Station)",
+        "directions": [
+            "Oak Square",
+            "Kendall/MIT Station"
+        ],
+        "stops": []
+    },
+    "65": {
+        "name": "65 (Brighton Center - Kenmore Station)",
+        "directions": [
+            "Brighton Center",
+            "Kenmore Station"
+        ],
+        "stops": []
+    },
+    "66": {
+        "name": "66 (Harvard Square - Nubian Station)",
+        "directions": [
+            "Harvard Square",
+            "Nubian Station"
+        ],
+        "stops": []
+    },
+    "67": {
+        "name": "67 (Turkey Hill - Alewife Station)",
+        "directions": [
+            "Turkey Hill",
+            "Alewife Station"
+        ],
+        "stops": []
+    },
+    "68": {
+        "name": "68 (Harvard Square - Kendall/MIT Station)",
+        "directions": [
+            "Harvard Square",
+            "Kendall/MIT Station"
+        ],
+        "stops": []
+    },
+    "69": {
+        "name": "69 (Harvard Square - Lechmere Station)",
+        "directions": [
+            "Harvard Square",
+            "Lechmere Station"
+        ],
+        "stops": []
+    },
+    "70": {
+        "name": "70 (Market Place Drive or Waltham Center - University Park)",
+        "directions": [
+            "Market Place Drive",
+            "University Park"
+        ],
+        "stops": []
+    },
+    "71": {
+        "name": "71 (Watertown Square - Harvard Station)",
+        "directions": [
+            "Watertown Square",
+            "Harvard Station"
+        ],
+        "stops": []
+    },
+    "73": {
+        "name": "73 (Waverley Square - Harvard Station)",
+        "directions": [
+            "Waverley Square",
+            "Harvard Station"
+        ],
+        "stops": []
+    },
+    "74": {
+        "name": "74 (Belmont Center - Harvard)",
+        "directions": [
+            "Belmont Center",
+            "Harvard Station"
+        ],
+        "stops": []
+    },
+    "75": {
+        "name": "75 (Belmont Center - Harvard)",
+        "directions": [
+            "Belmont Center",
+            "Harvard Station"
+        ],
+        "stops": []
+    },
+    "76": {
+        "name": "76 (Lincoln Lab - Alewife Station)",
+        "directions": [
+            "Lincoln Lab",
+            "Alewife Station"
+        ],
+        "stops": []
+    },
+    "77": {
+        "name": "77 (Arlington Heights - Harvard Station)",
+        "directions": [
+            "Arlington Heights",
+            "Harvard Station"
+        ],
+        "stops": []
+    },
+    "78": {
+        "name": "78 (Arlmont Village - Harvard Station)",
+        "directions": [
+            "Arlmont Village",
+            "Harvard Station"
+        ],
+        "stops": []
+    },
+    "80": {
+        "name": "80 (Arlington Center - Lechmere Station)",
+        "directions": [
+            "Arlington Center",
+            "Lechmere Station"
+        ],
+        "stops": []
+    },
+    "83": {
+        "name": "83 (Rindge Avenue - Central Square, Cambridge)",
+        "directions": [
+            "Rindge Ave",
+            "Central Square, Cambridge"
+        ],
+        "stops": []
+    },
+    "85": {
+        "name": "85 (Spring Hill - Kendall/MIT Station)",
+        "directions": [
+            "Spring Hill",
+            "Kendall/MIT"
+        ],
+        "stops": []
+    },
+    "86": {
+        "name": "86 (Sullivan Square Station - Reservoir Station)",
+        "directions": [
+            "Sullivan Square Station",
+            "Reservoir Station"
+        ],
+        "stops": []
+    },
+    "87": {
+        "name": "87 (Clarendon Hill or Arlington Center - Lechmere Station)",
+        "directions": [
+            "Arlington Center",
+            "Lechmere Station"
+        ],
+        "stops": []
+    },
+    "88": {
+        "name": "88 (Clarendon Hill - Lechmere Station)",
+        "directions": [
+            "Clarendon Hill",
+            "Lechmere Station"
+        ],
+        "stops": []
+    },
+    "89": {
+        "name": "89 (Clarendon Hill or Davis Station - Sullivan Square Station)",
+        "directions": [
+            "Davis Station",
+            "Sullivan Square Station"
+        ],
+        "stops": []
+    },
+    "8993": {
+        "name": "89/93 (Clarendon Hill - Haymarket Station)",
+        "directions": [
+            "Clarendon Hill",
+            "Haymarket Station"
+        ],
+        "stops": []
+    },
+    "90": {
+        "name": "90 (Davis Station - Assembly Row)",
+        "directions": [
+            "Davis Station",
+            "Assembly Row"
+        ],
+        "stops": []
+    },
+    "91": {
+        "name": "91 (Sullivan Square Station - Central Square, Cambridge)",
+        "directions": [
+            "Sullivan Square Station",
+            "Central Square, Cambridge"
+        ],
+        "stops": []
+    },
+    "92": {
+        "name": "92 (Sullivan Square Station - Downtown)",
+        "directions": [
+            "Sullivan Square Station",
+            "Downtown"
+        ],
+        "stops": []
+    },
+    "93": {
+        "name": "93 (Sullivan Square Station - Downtown)",
+        "directions": [
+            "Sullivan Square Station",
+            "Downtown"
+        ],
+        "stops": []
+    },
+    "94": {
+        "name": "94 (Medford Square - Davis Station)",
+        "directions": [
+            "Medford Square",
+            "Davis Station"
+        ],
+        "stops": []
+    },
+    "95": {
+        "name": "95 (West Medford or Arlington Center - Sullivan Square Station)",
+        "directions": [
+            "Arlington Center",
+            "Sullivan Square Station"
+        ],
+        "stops": []
+    },
+    "96": {
+        "name": "96 (Medford Square - Harvard Station)",
+        "directions": [
+            "Medford Square",
+            "Harvard Station"
+        ],
+        "stops": []
+    },
+    "97": {
+        "name": "97 (Malden Center Station - Wellington Station)",
+        "directions": [
+            "Malden Center Station",
+            "Wellington Station"
+        ],
+        "stops": []
+    },
+    "99": {
+        "name": "99 (Woodland Road - Wellington Station)",
+        "directions": [
+            "Woodland Road",
+            "Wellington Station"
+        ],
+        "stops": []
+    },
+    "100": {
+        "name": "100 (Elm Street - Wellington Station)",
+        "directions": [
+            "Elm Street",
+            "Wellington Station"
+        ],
+        "stops": []
+    },
+    "101": {
+        "name": "101 (Malden Center Station - Sullivan Square Station)",
+        "directions": [
+            "Malden Center Station",
+            "Sullivan Square Station"
+        ],
+        "stops": []
+    },
+    "104": {
+        "name": "104 (Malden Center Station - Sullivan Square Station)",
+        "directions": [
+            "Malden Center Station",
+            "Sullivan Square Station"
+        ],
+        "stops": []
+    },
+    "105": {
+        "name": "105 (Malden Center Station - Sullivan Square Station)",
+        "directions": [
+            "Malden Center Station",
+            "Sullivan Square Station"
+        ],
+        "stops": []
+    },
+    "106": {
+        "name": "106 (Lebanon Loop - Wellington Station)",
+        "directions": [
+            "Lebanon Loop",
+            "Wellington Station"
+        ],
+        "stops": []
+    },
+    "108": {
+        "name": "108 (Linden Square - Wellington Station)",
+        "directions": [
+            "Linden Square",
+            "Wellington Station"
+        ],
+        "stops": []
+    },
+    "109": {
+        "name": "109 (Linden Square - Sullivan Square Station)",
+        "directions": [
+            "Linden Square",
+            "Sullivan Square Station"
+        ],
+        "stops": []
+    },
+    "110": {
+        "name": "110 (Wonderland Station - Wellington Station)",
+        "directions": [
+            "Wonderland Station",
+            "Wellington Station"
+        ],
+        "stops": []
+    },
+    "111": {
+        "name": "111 (Woodlawn - Haymarket Station)",
+        "directions": [
+            "Woodlawn",
+            "Haymarket Station"
+        ],
+        "stops": []
+    },
+    "112": {
+        "name": "112 (Wellington Station - Wood Island Station)",
+        "directions": [
+            "Wellington Station",
+            "Wood Island Station"
+        ],
+        "stops": []
+    },
+    "114": {
+        "name": "114 (Market Basket - Maverick Station)",
+        "directions": [
+            "Mystic Mall",
+            "Maverick Station"
+        ],
+        "stops": []
+    },
+    "116": {
+        "name": "116 (Wonderland Station - Maverick Station)",
+        "directions": [
+            "Wonderland Station",
+            "Maverick Station"
+        ],
+        "stops": []
+    },
+    "117": {
+        "name": "117 (Wonderland Station - Maverick Station)",
+        "directions": [
+            "Wonderland Station",
+            "Maverick Station"
+        ],
+        "stops": []
+    },
+    "119": {
+        "name": "119 (Northgate Shopping Center - Beachmont Station)",
+        "directions": [
+            "Northgate Shopping Center",
+            "Beachmont Station"
+        ],
+        "stops": []
+    },
+    "120": {
+        "name": "120 (Orient Heights Station - Jeffries Point)",
+        "directions": [
+            "Orient Heights Station",
+            "Maverick Station"
+        ],
+        "stops": []
+    },
+    "121": {
+        "name": "121 (Wood Island Station - Maverick Station)",
+        "directions": [
+            "Eagle Square",
+            "Maverick Station"
+        ],
+        "stops": []
+    },
+    "131": {
+        "name": "131 (Melrose Highlands - Oak Grove or Malden Center Station)",
+        "directions": [
+            "Melrose Highlands",
+            "Malden Center Station"
+        ],
+        "stops": []
+    },
+    "132": {
+        "name": "132 (Redstone Shopping Center - Malden Center Station)",
+        "directions": [
+            "Redstone Shopping Center",
+            "Malden Center Station"
+        ],
+        "stops": []
+    },
+    "134": {
+        "name": "134 (North Woburn - Wellington Station)",
+        "directions": [
+            "North Woburn",
+            "Wellington Station"
+        ],
+        "stops": []
+    },
+    "137": {
+        "name": "137 (Reading Depot - Malden Center Station)",
+        "directions": [
+            "Reading Depot",
+            "Malden Center Station"
+        ],
+        "stops": []
+    },
+    "171": {
+        "name": "171 (Logan Airport Terminals - Nubian Station)",
+        "directions": [
+            "Logan Airport Terminals",
+            "Nubian Station"
+        ],
+        "stops": []
+    },
+    "201": {
+        "name": "201 (Fields Corner Loop)",
+        "directions": [
+            "Keystone Apts",
+            "Fields Corner Station"
+        ],
+        "stops": []
+    },
+    "202": {
+        "name": "202 (Fields Corner Loop)",
+        "directions": [
+            "Keystone Apts",
+            "Fields Corner Station"
+        ],
+        "stops": []
+    },
+    "210": {
+        "name": "210 (Quincy Center Station - Fields Corner Station)",
+        "directions": [
+            "Quincy Center Station",
+            "Fields Corner Station"
+        ],
+        "stops": []
+    },
+    "211": {
+        "name": "211 (Quincy Center Station - Squantum)",
+        "directions": [
+            "Quincy Center Station",
+            "Squantum"
+        ],
+        "stops": []
+    },
+    "215": {
+        "name": "215 (Quincy Center Station - Ashmont Station)",
+        "directions": [
+            "Quincy Center Station",
+            "Ashmont Station"
+        ],
+        "stops": []
+    },
+    "216": {
+        "name": "216 (Houghs Neck - Quincy Center Station)",
+        "directions": [
+            "Houghs Neck",
+            "Quincy Center Station"
+        ],
+        "stops": []
+    },
+    "217": {
+        "name": "217 (Quincy Center Station - Ashmont Station)",
+        "directions": [
+            "Quincy Center Station",
+            "Ashmont Station"
+        ],
+        "stops": []
+    },
+    "220": {
+        "name": "220 (Hingham Depot - Quincy Center Station)",
+        "directions": [
+            "Hingham Depot",
+            "Quincy Center Station"
+        ],
+        "stops": []
+    },
+    "222": {
+        "name": "222 (East Weymouth - Quincy Center Station)",
+        "directions": [
+            "East Weymouth",
+            "Quincy Center Station"
+        ],
+        "stops": []
+    },
+    "225": {
+        "name": "225 (Weymouth Landing - Quincy Center Station)",
+        "directions": [
+            "Weymouth Landing",
+            "Quincy Center Station"
+        ],
+        "stops": []
+    },
+    "226": {
+        "name": "226 (Columbian Square - Braintree Station)",
+        "directions": [
+            "Columbian Square",
+            "Braintree Station"
+        ],
+        "stops": []
+    },
+    "230": {
+        "name": "230 (Montello Station - Quincy Center Station)",
+        "directions": [
+            "Montello Station",
+            "Quincy Center Station"
+        ],
+        "stops": []
+    },
+    "236": {
+        "name": "236 (South Shore Plaza - Quincy Center Station)",
+        "directions": [
+            "South Shore Plaza",
+            "Quincy Center Station"
+        ],
+        "stops": []
+    },
+    "238": {
+        "name": "238 (Holbrook/Randolph Station - Quincy Center Station)",
+        "directions": [
+            "Holbrook/Randolph Station",
+            "Quincy Center Station"
+        ],
+        "stops": []
+    },
+    "240": {
+        "name": "240 (Avon Square - Ashmont Station)",
+        "directions": [
+            "Avon Square",
+            "Ashmont Station"
+        ],
+        "stops": []
+    },
+    "245": {
+        "name": "245 (Quincy Center Station - Mattapan Station)",
+        "directions": [
+            "Quincy Center Station",
+            "Mattapan Station"
+        ],
+        "stops": []
+    },
+    "350": {
+        "name": "350 (North Burlington - Alewife Station)",
+        "directions": [
+            "North Burlington",
+            "Alewife Station"
+        ],
+        "stops": []
+    },
+    "351": {
+        "name": "351 (Bedford Woods Drive - Third Avenue)",
+        "directions": [
+            "Bedford Woods Dr",
+            "Third Ave"
+        ],
+        "stops": []
+    },
+    "354": {
+        "name": "354 (North Burlington - State Street, Boston)",
+        "directions": [
+            "North Burlington",
+            "State Street, Boston"
+        ],
+        "stops": []
+    },
+    "411": {
+        "name": "411 (Kennedy Drive or Jack Satter House - Malden Center Station)",
+        "directions": [
+            "Jack Satter House",
+            "Malden Center Station"
+        ],
+        "stops": []
+    },
+    "424": {
+        "name": "424 (Eastern Avenue & Essex Street - Wonderland Station)",
+        "directions": [
+            "Eastern Avenue & Essex Street",
+            "Wonderland Station"
+        ],
+        "stops": []
+    },
+    "426": {
+        "name": "426 (Central Square, Lynn - Haymarket or Wonderland Station)",
+        "directions": [
+            "Central Square, Lynn",
+            "Haymarket or Wonderland Station"
+        ],
+        "stops": []
+    },
+    "428": {
+        "name": "428 (Oaklandvale - Haymarket Station)",
+        "directions": [
+            "Oaklandvale",
+            "Haymarket Station"
+        ],
+        "stops": []
+    },
+    "429": {
+        "name": "429 (Northgate Shopping Center - Central Square, Lynn)",
+        "directions": [
+            "Northgate Shopping Center",
+            "Central Square, Lynn"
+        ],
+        "stops": []
+    },
+    "430": {
+        "name": "430 (Saugus Center - Malden Center Station)",
+        "directions": [
+            "Saugus Center",
+            "Malden Center Station"
+        ],
+        "stops": []
+    },
+    "435": {
+        "name": "435 (Liberty Tree Mall - Central Square, Lynn)",
+        "directions": [
+            "Salem Depot",
+            "Neptune Towers"
+        ],
+        "stops": []
+    },
+    "436": {
+        "name": "436 (Liberty Tree Mall - Central Square, Lynn)",
+        "directions": [
+            "Liberty Tree Mall",
+            "Central Square, Lynn"
+        ],
+        "stops": []
+    },
+    "439": {
+        "name": "439 (Nahant - Wonderland Station)",
+        "directions": [
+            "Nahant",
+            "Wonderland Station"
+        ],
+        "stops": []
+    },
+    "441": {
+        "name": "441 (Marblehead - Wonderland Station)",
+        "directions": [
+            "Marblehead",
+            "Wonderland Station"
+        ],
+        "stops": []
+    },
+    "441442": {
+        "name": "441/442 (Marblehead - Wonderland Station)",
+        "directions": [
+            "Ocean Street, Lynn",
+            "Wonderland Station"
+        ],
+        "stops": []
+    },
+    "442": {
+        "name": "442 (Marblehead - Wonderland Station)",
+        "directions": [
+            "Marblehead",
+            "Wonderland Station"
+        ],
+        "stops": []
+    },
+    "450": {
+        "name": "450 (Salem Depot - Wonderland or Haymarket Station)",
+        "directions": [
+            "Salem Depot",
+            "Wood Island Station"
+        ],
+        "stops": []
+    },
+    "451": {
+        "name": "451 (North Beverly Station - Salem Depot)",
+        "directions": [
+            "North Beverly Station",
+            "Salem Depot"
+        ],
+        "stops": []
+    },
+    "455": {
+        "name": "455 (Salem Depot - Wonderland Station)",
+        "directions": [
+            "Salem Depot",
+            "Wonderland Station"
+        ],
+        "stops": []
+    },
+    "456": {
+        "name": "456 (Salem Depot - Central Square, Lynn)",
+        "directions": [
+            "Salem Depot",
+            "Central Square, Lynn"
+        ],
+        "stops": []
+    },
+    "501": {
+        "name": "501 (Brighton Center - Federal Street & Franklin Street)",
+        "directions": [
+            "Brighton Center",
+            "Federal Street & Franklin Street"
+        ],
+        "stops": []
+    },
+    "504": {
+        "name": "504 (Watertown Yard - Federal Street & Franklin Street)",
+        "directions": [
+            "Watertown Yard",
+            "Federal Street & Franklin Street"
+        ],
+        "stops": []
+    },
+    "505": {
+        "name": "505 (Waltham Center - Federal Street & Franklin Street)",
+        "directions": [
+            "Waltham Center",
+            "Federal Street & Franklin Street"
+        ],
+        "stops": []
+    },
+    "553": {
+        "name": "553 (Roberts - Newton Corner)",
+        "directions": [
+            "Roberts",
+            "Newton Corner"
+        ],
+        "stops": []
+    },
+    "554": {
+        "name": "554 (Waverley Square - Newton Corner)",
+        "directions": [
+            "Waverly Square",
+            "Newton Corner"
+        ],
+        "stops": []
+    },
+    "556": {
+        "name": "556 (Waltham Highlands - Newton Corner)",
+        "directions": [
+            "Waltham Highlands",
+            "Newton Corner"
+        ],
+        "stops": []
+    },
+    "558": {
+        "name": "558 (Riverside Station - Newton Corner)",
+        "directions": [
+            "Riverside Station",
+            "Newton Corner"
+        ],
+        "stops": []
+    },
+    "712": {
+        "name": "712 (Point Shirley - Orient Heights Station)",
+        "directions": [
+            "Point Shirley",
+            "Orient Heights Station, South Busway"
+        ],
+        "stops": []
+    },
+    "713": {
+        "name": "713 (Point Shirley - Orient Heights Station)",
+        "directions": [
+            "Point Shirley",
+            "Orient Heights Station, South Busway"
+        ],
+        "stops": []
+    },
+    "714": {
+        "name": "714 (Pemberton Point, Hull - Station Street, Hingham)",
+        "directions": [
+            "Pemberton Point",
+            "Hingham Depot"
+        ],
+        "stops": []
+    },
+    "716": {
+        "name": "716 (Cobbs Corner - Mattapan Station)",
+        "directions": [
+            "Cobbs Corner",
+            "Mattapan Station"
+        ],
+        "stops": []
+    }
+}

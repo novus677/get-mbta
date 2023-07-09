@@ -1,8 +1,12 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { parseTime } from '../utils/display_time';
+import routeData from '../mbta_info/routes.json';
+import '../App.css';
 
 function Form() {
+    const [routes, setRoutes] = useState({});
+
     const [routeId, setRouteId] = useState("");
     const [directionId, setDirectionId] = useState("");
     const [stopId, setStopId] = useState("");
@@ -18,13 +22,22 @@ function Form() {
                 .catch(err => console.log(err));
         }
     }
+
+    useEffect(() => {
+        setRoutes(routeData);
+    }, []);
     
     return (
         <div>
             <form onSubmit={handleSubmit}>
                 <label>
                     Route ID:
-                    <input type="text" value={routeId} onChange={e => setRouteId(e.target.value)} />
+                    <select value={routeId} onChange={e => setRouteId(e.target.value)}>
+                        <option value="">--Select a Route--</option>
+                        {Object.entries(routes).map(([routeId, routeName], index) => 
+                            <option key={index} value={routeId}>{routeName}</option>
+                        )}
+                    </select>
                 </label>
                 <label>
                     Direction ID:
