@@ -11,6 +11,9 @@ function Form() {
     const [directionId, setDirectionId] = useState("");
     const [stopId, setStopId] = useState("");
 
+    const [directions, setDirections] = useState({});
+    const [stops, setStops] = useState({});
+
     const [arrivalTimes, setArrivalTimes] = useState([]);
     
     const handleSubmit = (e) => {
@@ -26,30 +29,81 @@ function Form() {
     useEffect(() => {
         setRoutes(routeData);
     }, []);
-    
+
+    useEffect(() => {
+        if (routeId && routes[routeId]) {
+            setDirections(routes[routeId].directions);
+            setDirectionId("");
+            setStops({});
+            setStopId("");
+        }
+    }, [routeId, routes]);
+
+    useEffect(() => {
+        if (directionId && directions[directionId]) {
+            setStops(directions[directionId].stops);
+            setStopId("");
+        }
+    }, [directionId, directions]);
+
     return (
         <div>
-            <form onSubmit={handleSubmit}>
-                <label>
-                    Route ID:
-                    <select value={routeId} onChange={e => setRouteId(e.target.value)}>
-                        <option value="">--Select a Route--</option>
-                        {Object.entries(routes).map(([routeId, routeName], index) => 
-                            <option key={index} value={routeId}>{routeName}</option>
-                        )}
-                    </select>
-                </label>
-                <label>
-                    Direction ID:
-                    <input type="text" value={directionId} onChange={e => setDirectionId(e.target.value)} />
-                </label>
-                <label>
-                    Stop ID:
-                    <input type="text" value={stopId} onChange={e => setStopId(e.target.value)} />
-                </label>
-                <button type="submit">Submit</button>
-            </form>
-            {(arrivalTimes.length > 0) && <p>Next arrival times: {arrivalTimes.map(time => parseTime(time)).join(", ")}</p>}
+            <div className='header'>
+                <h1>MBTA Query</h1>
+            </div>
+
+            <div className='main-content'>
+                <div className='form-container'>
+                    <h2>Query Your Route</h2>
+
+                    <form onSubmit={handleSubmit}>
+                        <label>
+                            Route:
+                            <select value={routeId} onChange={e => setRouteId(e.target.value)}>
+                                <option value="">--Select a Route--</option>
+                                {Object.entries(routes).map(([routeId, routeData], index) => 
+                                    <option key={index} value={routeId}>{routeData.name}</option>
+                                )}
+                            </select>
+                        </label>
+                        <label>
+                            Direction:
+                            <select value={directionId} onChange={e => setDirectionId(e.target.value)} disabled={!routeId}>
+                                <option value="">--Select a Direction--</option>
+                                {Object.entries(directions).map(([directionId, directionData], index) => 
+                                    <option key={index} value={directionId}>{directionData.name}</option>
+                                )}
+                            </select>
+                        </label>
+                        <label>
+                            Stop:
+                            <select value={stopId} onChange={e => setStopId(e.target.value)} disabled={!directionId}>
+                                <option value="">--Select a Stop--</option>
+                                {directions[directionId]?.stops.map((stop, index) => 
+                                    <option key={index} value={Object.keys(stop)[0]}>{Object.values(stop)[0]}</option>
+                                )}
+                            </select>
+                        </label>
+                        <div className='button-container'>
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div className='arrival-times-container'>
+                    <h2>Arrival Times</h2>
+                    {/* {(arrivalTimes.length > 0) && <p>Next arrival times: {arrivalTimes.map(time => parseTime(time)).join(", ")}</p>} */}
+                    {arrivalTimes.length > 0 && arrivalTimes.map((time, index) => (
+                        <div key={index} className="arrival-time-card">
+                            <p>{parseTime(time)}</p>
+                        </div>
+                    ))}
+                </div>
+            </div>
+
+            <div className='footer'>
+                <p>Copyright © {new Date().getFullYear()} MBTA Query</p>
+            </div>
         </div>
     );     
 }
