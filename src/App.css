@@ -27,6 +27,7 @@ header {
   justify-content: space-around;
   width: 80%;
   margin: 30px auto;
+  min-width: 500px;
 }
 
 .form-container {
@@ -101,15 +102,16 @@ footer {
 }
 
 .header, .footer {
-  background-color: #75a7ff; /* lighter shade of blue */
+  background-color: #75a7ff;
   color: #fff;
   text-align: center;
+  min-width: 700px;
   padding: 20px;
   border-radius: 20px; /* add this line to give rounded corners */
 }
 
 .button-container button {
-  background-color: #75a7ff; /* lighter shade of blue */
+  background-color: #75a7ff;
   color: #fff;
   padding: 10px 20px;
   border: none;

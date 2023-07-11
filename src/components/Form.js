@@ -7,14 +7,14 @@ import routeData from '../mbta_info/routes.json';
 import '../App.css';
 
 function Form() {
-    const [routes, setRoutes] = useState({});
+    const [routes, setRoutes] = useState([]);
 
-    const [routeId, setRouteId] = useState("");
-    const [directionId, setDirectionId] = useState("");
-    const [stopId, setStopId] = useState("");
+    const [routeId, setRouteId] = useState(null);
+    const [directionId, setDirectionId] = useState(null);
+    const [stopId, setStopId] = useState(null);
 
-    const [directions, setDirections] = useState({});
-    const [stops, setStops] = useState({});
+    const [directions, setDirections] = useState([]);
+    const [stops, setStops] = useState([]);
 
     const [arrivalTimes, setArrivalTimes] = useState([]);
     
@@ -22,31 +22,45 @@ function Form() {
         e.preventDefault();
         if (routeId && directionId && stopId) {
             axios
-                .get(`http://localhost:5001/api/mbta/${routeId}/${directionId}/${stopId}`)
+                .get(`http://localhost:5001/api/mbta/${routeId.value}/${directionId.value}/${stopId.value}`)
                 .then(response => setArrivalTimes(response.data.arrivalTimes))
                 .catch(err => console.log(err));
         }
     }
 
     useEffect(() => {
-        setRoutes(routeData);
+        const formattedRoutes = Object.entries(routeData).map(([routeId, route]) => ({
+            value: routeId,
+            label: route.name,
+        }));
+        setRoutes(formattedRoutes);
     }, []);
 
     useEffect(() => {
-        if (routeId && routes[routeId]) {
-            setDirections(routes[routeId].directions);
-            setDirectionId("");
-            setStops({});
-            setStopId("");
+        if (routeId) {
+            const route = routeData[routeId.value];
+            const formattedDirections = Object.entries(route.directions).map(([directionId, direction]) => ({
+                value: directionId,
+                label: direction.name,
+            }));
+            setDirections(formattedDirections);
+            setDirectionId(null);
+            setStops([]);
+            setStopId(null);
         }
-    }, [routeId, routes]);
+    }, [routeId]);
 
     useEffect(() => {
-        if (directionId && directions[directionId]) {
-            setStops(directions[directionId].stops);
-            setStopId("");
+        if (directionId && routeId) {
+            const stopsData = routeData[routeId.value].directions[directionId.value].stops;
+            const formattedStops = stopsData.map(stop => ({
+                value: Object.keys(stop)[0],
+                label: Object.values(stop)[0],
+            }));
+            setStops(formattedStops);
+            setStopId(null);
         }
-    }, [directionId, directions]);
+    }, [directionId, routeId]);
 
     return (
         <div>
@@ -56,35 +70,37 @@ function Form() {
 
             <div className='main-content'>
                 <div className='form-container'>
-                    <h2>Query Your Route</h2>
+                    <h2>Enter Your Stop</h2>
 
                     <form onSubmit={handleSubmit}>
                         <label>
                             Route:
-                            <select value={routeId} onChange={e => setRouteId(e.target.value)}>
-                                <option value="">--Select a Route--</option>
-                                {Object.entries(routes).map(([routeId, routeData], index) => 
-                                    <option key={index} value={routeId}>{routeData.name}</option>
-                                )}
-                            </select>
+                            <Select
+                                options={routes}
+                                value={routeId}
+                                onChange={setRouteId}
+                                placeholder="--Select a Route--"
+                            />
                         </label>
                         <label>
                             Direction:
-                            <select value={directionId} onChange={e => setDirectionId(e.target.value)} disabled={!routeId}>
-                                <option value="">--Select a Direction--</option>
-                                {Object.entries(directions).map(([directionId, directionData], index) => 
-                                    <option key={index} value={directionId}>{directionData.name}</option>
-                                )}
-                            </select>
+                            <Select
+                                options={directions}
+                                value={directionId}
+                                onChange={setDirectionId}
+                                placeholder="--Select a Direction--"
+                                isDisabled={!routeId}
+                            />
                         </label>
                         <label>
                             Stop:
-                            <select value={stopId} onChange={e => setStopId(e.target.value)} disabled={!directionId}>
-                                <option value="">--Select a Stop--</option>
-                                {directions[directionId]?.stops.map((stop, index) => 
-                                    <option key={index} value={Object.keys(stop)[0]}>{Object.values(stop)[0]}</option>
-                                )}
-                            </select>
+                            <Select
+                                options={stops}
+                                value={stopId}
+                                onChange={setStopId}
+                                placeholder="--Select a Stop--"
+                                isDisabled={!directionId}
+                            />
                         </label>
                         <div className='button-container'>
                             <button type="submit">Submit</button>
