@@ -74,7 +74,7 @@ button:hover {
   padding: 20px;
   display: flex; 
   align-items: center;
-  height: 15px; /* Change this to the height you desire */
+  height: 15px;
 }
 
 .arrival-times-container {
@@ -83,7 +83,11 @@ button:hover {
   border-radius: 8px;
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
   flex-basis: 45%;
-  min-height: 400px; /* Adjust this value to suit your needs */
+  min-height: 400px;
+}
+
+.arrival-time-spacing {
+  margin-left: 10px;
 }
 
 footer {

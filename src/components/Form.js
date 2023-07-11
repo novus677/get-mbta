@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import moment from 'moment-timezone';
+import Select from 'react-select';
 import { parseTime } from '../utils/display_time';
 import routeData from '../mbta_info/routes.json';
 import '../App.css';
@@ -92,12 +94,17 @@ function Form() {
 
                 <div className='arrival-times-container'>
                     <h2>Arrival Times</h2>
-                    {/* {(arrivalTimes.length > 0) && <p>Next arrival times: {arrivalTimes.map(time => parseTime(time)).join(", ")}</p>} */}
-                    {arrivalTimes.length > 0 && arrivalTimes.map((time, index) => (
-                        <div key={index} className="arrival-time-card">
-                            <p>{parseTime(time)}</p>
-                        </div>
-                    ))}
+                    {arrivalTimes.length > 0 && arrivalTimes.map((time, index) => {
+                        const currentTime = moment().tz("America/New_York");
+                        const arrivalTime = moment.tz(time, "America/New_York");
+                        const timeDifference = arrivalTime.diff(currentTime, 'minutes');                    
+
+                        return (
+                            <div key={index} className="arrival-time-card">
+                                <p>{parseTime(time)}<span className='arrival-time-spacing'>(in {timeDifference} min)</span></p>
+                            </div>
+                        );
+                    })}
                 </div>
             </div>
 
