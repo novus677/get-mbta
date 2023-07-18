@@ -26,7 +26,13 @@ function Form() {
         e.preventDefault();
         if (routeId && directionId && stopId) {
             axios
-                .get(`http://localhost:5001/api/mbta/${routeId.value}/${directionId.value}/${stopId.value}`)
+                .get(`/api/mbta/`, {
+                    params: {
+                        route_id: routeId.value,
+                        direction_id: directionId.value,
+                        stop_id: stopId.value,
+                    },
+                })
                 .then(response => setArrivalTimes(response.data.arrivalTimes))
                 .catch(err => console.log(err));
         }

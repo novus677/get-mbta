@@ -1,8 +1,9 @@
 const axios = require('axios');
 
-exports.getArrivalTime = async (req, res) => {
-    const { route_id, direction_id, stop_id } = req.params;
-    const url = `https://api-v3.mbta.com/predictions?filter[route]=${route_id}&filter[direction_id]=${direction_id}&filter[stop]=${stop_id}&api_key=${process.env.MBTA_API_KEY}`;
+module.exports = async (req, res) => {
+    const { route_id, direction_id, stop_id } = req.query;
+    const url = `https://api-v3.mbta.com/predictions?filter[route]=${route_id}&filter[direction_id]=${direction_id}&filter[stop]=${stop_id}&api_key=${process.env.REACT_APP_MBTA_API_KEY}`;
+    // const url = `https://api-v3.mbta.com/predictions?filter[route]=${route_id}&filter[direction_id]=${direction_id}&filter[stop]=${stop_id}`;
     const NUM_TIMES = 5;
 
     try {
